@@ -1,0 +1,28 @@
+{
+  "empresa": "BUSIMOTT CIA LTDA",
+  "uuid": "a9575932-01c0-4340-aac1-b47491d1035b",
+  "exportado": "2026-06-09T17:39:22.816Z",
+  "total_registros": 174,
+  "archivos_csv": [
+    "csv/companies.csv",
+    "csv/users.csv",
+    "csv/bot_config.csv",
+    "csv/bots.csv",
+    "csv/employees.csv",
+    "csv/leads.csv",
+    "csv/clients.csv",
+    "csv/conversations.csv",
+    "csv/messages.csv",
+    "csv/bot_conversations.csv",
+    "csv/bot_sessions.csv",
+    "csv/bot_activity.csv",
+    "csv/activities.csv",
+    "csv/assignments.csv",
+    "csv/calendar_events.csv",
+    "csv/internal_messages.csv",
+    "csv/notifications.csv",
+    "csv/payments.csv",
+    "csv/audit_log.csv"
+  ],
+  "archivo_sql": "BUSIMOTT_CIA_LTDA_completo.sql"
+}
