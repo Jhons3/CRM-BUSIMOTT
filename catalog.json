@@ -1,0 +1,8 @@
+{
+  "_readme": "Agregar URLs públicas de imágenes por modelo. Ejemplo: sube las fotos a ImgBB (imgbb.com) gratis y pega la URL directa aquí. WhatsApp las descarga sin costo adicional.",
+  "sedan":     [],
+  "suv":       [],
+  "camioneta": [],
+  "hatchback": [],
+  "general":   []
+}
