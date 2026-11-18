@@ -17,10 +17,10 @@ require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 
 const pool = new Pool({
   host:     process.env.DB_HOST     || 'localhost',
-  port:     process.env.DB_PORT     || 5432,
-  database: process.env.DB_NAME     || 'crm_sales',
-  user:     process.env.DB_USER     || 'postgres',
-  password: process.env.DB_PASSWORD || '1234',
+  port:     process.env.DB_PORT     || xxx,
+  database: process.env.DB_NAME     || 'crm_bot',
+  user:     process.env.DB_USER     || 'user',
+  password: process.env.DB_PASSWORD || '3333',
 });
 
 // ── Orden de tablas respetando foreign keys ───────────────────────────────────
