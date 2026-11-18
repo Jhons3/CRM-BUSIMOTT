@@ -1,9 +1,9 @@
-require('dotenv').config();
+require('doten').config();
 const { query } = require('./config/db');
 
 async function check() {
   try {
-    const r = await query("SELECT email, role, status FROM users WHERE email='superadmin@crm.com'");
+    const r = await query("SELECT email, role, status FROM users WHERE email='xuper@crm.com'");
     console.log('Usuario:', JSON.stringify(r.rows));
     console.log('JWT_SECRET:', (process.env.JWT_SECRET||'dev_secret').substring(0,15)+'...');
   } catch(e) {
