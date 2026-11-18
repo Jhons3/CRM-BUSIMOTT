@@ -14,7 +14,7 @@ import DashboardSuperAdmin from './pages/DashboardSuperAdmin';
 // Así el login funciona sin importar desde qué dispositivo/URL se acceda al CRM.
 const API_ORIGIN = process.env.REACT_APP_API_URL
   ? process.env.REACT_APP_API_URL.replace(/\/api\/?$/, '')
-  : `${window.location.protocol}//${window.location.hostname}:3001`;
+  : `${window.location.protocol}//${window.location.hostname}:3000`;
 
 // ── Push notifications ────────────────────────────────────────────────────────
 function urlB64ToUint8Array(b64) {
